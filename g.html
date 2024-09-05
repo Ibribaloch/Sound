@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compact Side Navbar</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+
+    <div class="navbar">
+        <div class="icon-wrapper">
+            <i data-feather="grid"></i>
+        </div>
+        <div class="icon-wrapper">
+            <i data-feather="search"></i>
+        </div>
+        <div class="icon-wrapper">
+            <i data-feather="bell"></i>
+        </div>
+        <div class="icon-wrapper">
+            <i data-feather="settings"></i>
+        </div>
+        <div class="icon-wrapper">
+            <i data-feather="user"></i>
+        </div>
+    </div>
+
+
+    <div class="navbar_detail">
+        <!-- Menu Items -->
+        <div class="menu-item">
+            <i data-feather="home"></i>
+            <span>Home</span>
+        </div>
+        <div class="menu-item">
+            <i data-feather="music"></i>
+            <span>Songs</span>
+        </div>
+        <div class="menu-item">
+            <i data-feather="user"></i>
+            <span>Artist</span>
+        </div>
+        <div class="menu-item">
+            <i data-feather="disc"></i>
+            <span>Albums</span>
+        </div>
+        <div class="menu-item">
+            <i data-feather="mic"></i>
+            <span>Podcast</span>
+        </div>
+
+        <!-- Divider -->
+        <hr>
+
+        <!-- Collection Section -->
+        <div class="section-title">
+            <span>Your Collection</span>
+            <i data-feather="plus"></i>
+        </div>
+
+        <div class="collection-item">
+            <img src="img/images (1).jfif" alt="3 AM">
+            <div>
+                <span>3 AM</span>
+                <span class="small-text">Playlist</span>
+            </div>
+        </div>
+
+        <div class="collection-item">
+            <img src="img/images (1).jfif" alt="Munawar Faruqui">
+            <div>
+                <span>Munawar Faruqui</span>
+                <span class="small-text">Artist</span>
+            </div>
+        </div>
+
+        <div class="collection-item">
+            <img src="img/images (1).jfif" alt="Sunny Khan Durrani">
+            <div>
+                <span>Sunny Khan Durrani</span>
+                <span class="small-text">Playlist</span>
+            </div>
+        </div>
+
+        <div class="collection-item">
+            <img src="img/images (1).jfif" alt="ReaLity suCks">
+            <div>
+                <span>ReaLity suCks</span>
+                <span class="small-text">Playlist</span>
+            </div>
+        </div>
+
+        <div class="collection-item">
+            <img src="img/images (1).jfif" alt="KRSNA">
+            <div>
+                <span>KRSNA</span>
+                <span class="small-text">Artist</span>
+            </div>
+        </div>
+    </div>
+    <div class="header-container">
+        <div class="welcome-message">
+            <h2>Welcome back, Shivi!!!</h2>
+            <p>112 new playlists for you</p>
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search by title, artist, or album...">
+        </div>
+        <div class="profile-section">
+            <button class="icon-button">
+                <img src="img/logout.png" alt="Monitor Icon">
+            </button>
+            <div class="profile-icon">
+                <img src="img/images (1).jfif" alt="Profile">
+            </div>
+        </div>
+    </div>
+
+    <div class="music-dashboard">
+        <!-- Trending Songs Section -->
+        <div class="section">
+            <div class="section-header">
+                <h3>Trending songs this week</h3>
+                <a href="#" class="see-all">See all</a>
+            </div>
+            <div class="song-list">
+                <div class="song-item">
+                    <img src="img/images (1).jfif" alt="Co2">
+                    <p>Co2</p>
+                    <span>Prateek Kuhad</span>
+                </div>
+                <div class="song-item">
+                    <img src="img/images (1).jfif" alt="Janatein Kahan">
+                    <p>Janatein Kahan</p>
+                    <span>Pasoori, KK</span>
+                </div>
+                <div class="song-item">
+                    <img src="img/images (1).jfif" alt="Kabir">
+                    <p>Kabir</p>
+                    <span>KK Singh</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Popular Artist Section -->
+        <div class="section">
+            <div class="section-header">
+                <h3>Popular Artist</h3>
+                <a href="#" class="see-all">See all</a>
+            </div>
+            <div class="artist-list">
+                <div class="artist-item">
+                    <img src="img/images (1).jfif" alt="Taylor Swift">
+                    <p>Taylor Swift</p>
+                </div>
+                <div class="artist-item">
+                    <img src="img/images (1).jfif" alt="One Direction">
+                    <p>One Direction</p>
+                </div>
+                <div class="artist-item">
+                    <img src="img/images (1).jfif" alt="Ritviz">
+                    <p>Ritviz</p>
+                </div>
+                <div class="artist-item">
+                    <img src="img/images (1).jfif" alt="Harry Styles">
+                    <p>Harry Styles</p>
+                </div>
+                <div class="artist-item">
+                    <img src="img/images (1).jfif" alt="Arijit Singh">
+                    <p>Arijit Singh</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Recently Played Section -->
+        <div class="section">
+            <div class="section-header">
+                <h3>Recently played</h3>
+                <a href="#" class="see-all">See all</a>
+            </div>
+            <div class="recent-list">
+                <div class="recent-item">
+                    <img src="img/images (1).jfif" alt="Dil Mere">
+                    <div class="recent-info">
+                        <p>Dil Mere</p>
+                        <span>The Local Train</span>
+                    </div>
+                    <p class="duration">3:31</p>
+                    <button class="play-button">▶</button>
+                </div>
+                <div class="recent-item">
+                    <img src="img/images (1).jfif" alt="Karachi">
+                    <div class="recent-info">
+                        <p>Karachi</p>
+                        <span>Shamoon Ismail</span>
+                    </div>
+                    <p class="duration">2:52</p>
+                    <button class="play-button">▶</button>
+                </div>
+            </div>
+        </div>
+
+    <!-- Text section -->
+    <div class="section-header">
+      <h3>Choose your favorite genre</h3>
+      <p>Music genres from all over the world are here, choose one of them.</p>
+    </div>
+    <div class="genre-gallery">
+        <div class="genre-item">
+            <img src="img/images (1).jfif" alt="R&B">
+            <p>R&B</p>
+        </div>
+        <div class="genre-item hover-effect">
+            <img src="img/images (1).jfif" alt="Pop">
+            <div class="hover-overlay">
+                <div class="icon">
+                    <span>&#8599;</span> <!-- Up-right arrow -->
+                </div>
+            </div>
+            <p>POP</p>
+        </div>
+        <div class="genre-item">
+            <img src="img/images (1).jfif" alt="Rock">
+            <p>ROCK</p>
+        </div>
+        <div class="genre-item">
+            <img src="img/images (1).jfif" alt="Hip Hop">
+            <p>HIP HOP</p>
+        </div>
+    </div>
+    <!-- Button section -->
+    <div>
+      <button class="genre-button">
+        See More
+      </button>
+    </div>
+  </div>
+    </div>
+
+    <div class="now-playing-container">
+        <!-- Now Playing Section -->
+        <div class="now-playing">
+            <h3>Now Playing</h3>
+            <img src="img/images (1).jfif" alt="Album Cover" class="album-cover">
+            <div class="current-track">
+                <p class="track-title">Lunch Break</p>
+                <span class="artist-name">Seedhe Maut</span>
+            </div>
+        </div>
+
+        <!-- Queue Section -->
+        <div class="queue">
+            <h3>Queue</h3>
+            <div class="queue-item">
+                <img src="img/images (1).jfif" alt="Asal G">
+                <div class="queue-info">
+                    <p>Asal G</p>
+                    <span>Seedhe Maut, Faris Shafi</span>
+                </div>
+                <button class="play-button">▶</button>
+            </div>
+            <div class="queue-item">
+                <img src="img/images (1).jfif" alt="Marne Ke Baad Bhi">
+                <div class="queue-info">
+                    <p>Marne Ke Baad Bhi</p>
+                    <span>Seedhe Maut</span>
+                </div>
+                <button class="play-button">▶</button>
+            </div>
+            <div class="queue-item">
+                <img src="img/images (1).jfif" alt="Hola Amigo">
+                <div class="queue-info">
+                    <p>Hola Amigo</p>
+                    <span>KRSNA, Seedhe Maut</span>
+                </div>
+                <button class="play-button">▶</button>
+            </div>
+        </div>
+    </div>
+        <div class="features-section">
+            <h2>Best Features</h2>
+            <div class="feature-cards">
+                <div class="feature-card">
+                    <div class="feature-number">01</div>
+                    <div class="feature-details">
+                        <h3>The Best Price</h3>
+                        <p>We offer very cheap and very affordable monthly member prices for you.</p>
+                    </div>
+                </div>
+                <div class="feature-card highlight">
+                    <div class="feature-number">02</div>
+                    <div class="feature-details">
+                        <h3>Copyright free</h3>
+                        <p>Royalty-free music to download or play online – Get unlimited access to over 40,000 tracks.</p>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-number">03</div>
+                    <div class="feature-details">
+                        <h3>Premium Quality</h3>
+                        <p>Premium quality that makes Musicalists more elegant and more comfortable to hear.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="music-player">
+            <div class="album-art">
+                <img src="img/images (1).jfif" alt="Album Artwork">
+            </div>
+            <div class="track-info">
+                <h2 class="track-title">La Hassil</h2>
+                <p class="artist-name">Sunny Khan Durrani</p>
+            </div>
+        
+            <div class="controls">
+                <button class="prev">
+                    <svg viewBox="0 0 24 24" fill="currentColor" stroke="none" class="w-6 h-6">
+                        <path d="M14 5l-7 7 7 7v-14z"/>
+                    </svg>
+                </button>
+                <button class="play">
+                    <svg viewBox="0 0 24 24" fill="currentColor" stroke="none" class="w-6 h-6">
+                        <path d="M18 12.75l-6 3.75-6-3.75v7.5l12-7.5v-7.5z" />
+                    </svg>
+                </button>
+                <button class="pause">
+                    <svg viewBox="0 0 24 24" fill="currentColor" stroke="none" class="w-6 h-6">
+                        <path d="M6 4h4v16h-4zM14 4h4v16h-4z" />
+                    </svg>
+                </button>
+                <button class="next">
+                    <svg viewBox="0 0 24 24" fill="currentColor" stroke="none" class="w-6 h-6">
+                        <path d="M10 5l7 7-7 7v-14z" />
+                    </svg>
+                </button>
+            </div>
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+            <div class="time-info">
+                <span class="current-time">1:03</span>
+                <span class="total-time">3:24</span>
+            </div>
+            <div class="volume-control">
+                <button class="mute">
+                    <svg viewBox="0 0 24 24" fill="currentColor" stroke="none" class="w-6 h-6">
+                        <path d="M11.5 10.5h1v3h-1v-3zM13 12h1v1h-1v-1zM13.5 13.5h-1v1h1v-1zM14 14h1v1h-1v-1zM14.5 14.5h-1v1h1v-1z" />
+                    </svg>
+                </button>
+                <input type="range" class="volume-slider" min="0" max="100" value="50">
+            </div>
+        </div>
+        <script src="script.js"></script>
+    <script>
+        feather.replace()
+    </script>
+
+</body>
+</html>
